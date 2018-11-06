@@ -6,12 +6,13 @@ Zhambaeva D., Zikova K.
 
 text = input("Введите текст:")
 count_sentens = text.count('.') + text.count('?') + text.count('!')
-#count_words =
+count_words = text.count(' ') + text.count(',')
 text = text.lower()
 count_syllables = text.count('а') + text.count('о') + text.count('и') \
                   + text.count('е') + text.count('ё') + text.count('э') \
                   + text.count('ы') + text.count('у') + text.count('ю') \
                   + text.count('я')
+
 ASL = count_words / count_sentens
 ASW = count_syllables / count_words
 FRE = 206.835 - (1.3 * ASL) - (60.1 * ASW)
