@@ -6,7 +6,7 @@ Zhambaeva D., Zikova K.
 
 text = input("Введите текст:")
 count_sentens = text.count('.') + text.count('?') + text.count('!')
-#count_words =
+count_words = text.count(' ') + text.count(',')
 text = text.lower()
 count_syllables = text.count('а') + text.count('о') + text.count('и') \
                   + text.count('е') + text.count('ё') + text.count('э') \
