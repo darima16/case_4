@@ -1,6 +1,7 @@
 """Case-study #4 Анализ текста
 Developers:
 Zhambaeva D.(80%), Zikova K.(40%)
+.
 
 """
 
